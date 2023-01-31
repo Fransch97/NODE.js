@@ -6,5 +6,4 @@ const routing = (url, response) =>  {
     response.write(html);
 }
 
-
-export default routing;
+export {routing};
