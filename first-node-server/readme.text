@@ -1,0 +1,5 @@
+Just first tests bevor lessons about routing.
+need node version >= 14...
+1. npm install
+2. node Server.js
+3. link -> localhost:3000
