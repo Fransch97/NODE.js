@@ -5,9 +5,12 @@
   "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Server.js"
+    "start": "nodemon Server.js"
   },
   "author": "fransch",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
