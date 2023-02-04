@@ -4,7 +4,8 @@
   "description": "Testing with random ideas for routing bevor routing lessons",
   "main": "Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js"
   },
   "author": "fransch",
   "license": "ISC",
