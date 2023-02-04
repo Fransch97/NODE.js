@@ -10,7 +10,7 @@
   "author": "fransch",
   "license": "ISC",
   "type": "module",
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^2.0.20"
   }
 }
