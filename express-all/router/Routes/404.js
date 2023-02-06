@@ -1,9 +1,10 @@
 import express from 'express';
+import path from 'path';
 
 const NotFound = express.Router();
 
 NotFound.use('/', (req, res) => {
-    res.status(404).end('<h1>404</h1><h1>Route not found</h1>');
+    res.status(404).sendFile(path.resolve('views', '404.html'));
 });
 
 export default NotFound;

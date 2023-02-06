@@ -1,9 +1,10 @@
 import express from 'express';
+import path from 'path';
 
 const Home = express.Router()
 
 Home.get('/', (req, res, next) => {
-    res.send('<h1>Home</h1> <p>Create new Product</p> <a href="/new-product">Add product here</a>')
+    res.sendFile(path.resolve('views', 'Home.html'))
 });
 
 export default Home;
