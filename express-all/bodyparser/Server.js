@@ -3,13 +3,13 @@ import bodyParser from 'body-parser';
 
 const app = express();
 
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({extended: true}));
 
 app.use("/new-product", (req, res) => {
     res.send('<form action="/product" method="post"> <input name="product"></Input> <br> <button type="submit">Add product</button> </form>')
 });
 
-app.use("/product", (req, res) => {
+app.post("/product", (req, res) => {
     console.log(req.body);
     res.redirect("/");
 });
