@@ -1,0 +1,11 @@
+extends Layouts/Head.pug
+
+block content
+    p Hello
+    p Im written with the Pug template engine 
+    a(href="https://pugjs.org/api/getting-started.html") Go to Pug documentation
+    br
+    h4 All templates i will learn with this course
+    ul 
+        each template in templates
+            li #{template}
