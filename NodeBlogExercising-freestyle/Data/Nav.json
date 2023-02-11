@@ -1,0 +1,12 @@
+[
+    {
+        "title" : "Home",
+        "link" : "/",
+        "method" : "get"
+    },
+    {
+        "title" : "Tech",
+        "link" : "/tech",
+        "method" : "get"
+    }
+]

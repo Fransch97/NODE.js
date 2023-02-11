@@ -1,0 +1,22 @@
+{
+    "headerTitle" : "Home",
+    "title" : "Welcome to my first Node blog",
+    "content" : "This web-app is created with no ideas but just to practice what i learned",
+    "ulTitle" : "List of what i learned",
+    "array" : [
+        "Create a Server",
+        "Nodemon for auto refresh the Server by saving code changes",
+        "Node fondamentals on how it works",
+        "Creating scritps in package.json",
+        "Use http from Node.js",
+        "Use Filesystem for managing local files",
+        "Use path from Node",
+        "Write files with Node.js",
+        "Read files with Node.js",
+        "Use Express for managing routes",
+        "Express CRUD methods",
+        "Use HTML template engines with Express",
+        "Create controllers",
+        "Create models"
+    ]       
+}

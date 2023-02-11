@@ -1,0 +1,9 @@
+extends Partials/Nav
+
+block content
+    h1 #{home.title}
+    p #{home.content}
+    h3 #{home.ulTitle}
+    ul 
+        each l of home.array
+            li #{l} 
